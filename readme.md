@@ -1,6 +1,6 @@
 # quiz-for-starters
 
-## Wichtige Hinweise
+## Wichtige 
 
 * Bitte arbeitet alle auf eurem eigenen Branche, danke!
 * Viel Spass und Erfolg! :-)
