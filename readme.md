@@ -2,5 +2,5 @@
 
 ## Wichtige Hinweise
 
-* Bitte arbeitet alle auf eurem Branche, danke!
+* Bitte arbeitet alle auf eurem eigenen Branche, danke!
 * Viel Spass und Erfolg! :-)
