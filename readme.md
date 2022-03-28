@@ -4,5 +4,3 @@
 
 * Bitte arbeitet alle auf eurem eigenen Branche, danke!
 * Viel Spass und Erfolg! :-)
-
-1234
