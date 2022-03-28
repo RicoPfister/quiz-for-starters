@@ -46,7 +46,8 @@
             
                 <div class="col border rounded border-secondary border-2 quizAnswerArea bg-quiz position-relative">
 
-                <div class="position-absolute top-0 start-100 translate-middle"><img class="imgDeco" src="images/deco1.png"></div>
+                <div class="position-absolute top-50 start-100 translate-middle ms-4 mt-3"><img class="imgDeco2" src="images/deco5.png"></div>
+                <div class="position-absolute top-100 start-50 translate-middle"><img class="imgDeco1" src="images/deco1.png"></div>
 
                 <!-- Form Start -->   
 

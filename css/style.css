@@ -19,7 +19,11 @@ a {
     background-color: RGBA(218, 221, 152, 0.7);
 }
 
-.imgDeco {
+.imgDeco1 {
     height: 200px;
+}
+
+.imgDeco2 {
+    height: 500px;
 }
 
