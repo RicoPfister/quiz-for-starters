@@ -1,0 +1,25 @@
+body {    
+    background-image: url("/images/background_light.jpg");
+}
+
+.quizArea {
+    margin-top: 8rem;
+}
+
+.quizAnswerArea {
+        height: 500px;
+}
+
+a {
+    color: black;
+    text-decoration: none; /* no underline */
+  }
+
+.bg-quiz{
+    background-color: RGBA(218, 221, 152, 0.7);
+}
+
+.imgDeco {
+    height: 200px;
+}
+
