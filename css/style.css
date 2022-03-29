@@ -1,0 +1,55 @@
+body {    
+    background-image: url("/images/background_light.jpg");
+}
+
+.quizArea {
+    margin-top: 5rem;
+}
+
+.quizAnswerArea {
+        height: 600px;
+}
+
+a {
+    color: black;
+    text-decoration: none; /* no underline */
+  }
+
+.bg-quiz{
+    background-color: RGBA(218, 221, 152, 0.7);
+}
+
+.imgDeco1 {
+    height: 200px;
+}
+
+.imgDeco2 {
+    height: 500px;
+}
+
+/* Button adjustments */
+
+.btn-back {
+    background: rgb(150,150,150);
+}
+
+.btn-back:hover {
+    background: rgb(100,100,100);
+}
+
+.btn-new {
+    background: rgb(255,150,150);
+}
+
+.btn-new:hover {
+    background: rgb(255,0, 0);
+}
+
+.btn-next {
+    background: rgb(150,255,150);
+}
+
+.btn-next:hover {
+    background: rgb(0,255,0);
+}
+
