@@ -11,7 +11,7 @@ if(array_key_last($_SESSION) == "b"){
 
 $nextQuestionNumber = intval(array_key_last($_SESSION))+1;
 
-$questionBForm = "question$nextQuestionNumber";
+$questionForm = "question$nextQuestionNumber";
 
 
 

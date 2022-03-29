@@ -51,7 +51,7 @@
 
                 <!-- Form Start -->   
 
-                <?php include "php/$questionBForm.php"?> 
+                <?php include "php/$questionForm.php"?> 
 
             </div>
         </div>       
