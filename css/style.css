@@ -3,11 +3,11 @@ body {
 }
 
 .quizArea {
-    margin-top: 8rem;
+    margin-top: 5rem;
 }
 
 .quizAnswerArea {
-        height: 500px;
+        height: 600px;
 }
 
 a {
@@ -25,5 +25,31 @@ a {
 
 .imgDeco2 {
     height: 500px;
+}
+
+/* Button adjustments */
+
+.btn-back {
+    background: rgb(150,150,150);
+}
+
+.btn-back:hover {
+    background: rgb(100,100,100);
+}
+
+.btn-new {
+    background: rgb(255,150,150);
+}
+
+.btn-new:hover {
+    background: rgb(255,0, 0);
+}
+
+.btn-next {
+    background: rgb(150,255,150);
+}
+
+.btn-next:hover {
+    background: rgb(0,255,0);
 }
 
