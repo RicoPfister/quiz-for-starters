@@ -4,10 +4,10 @@
 
 <!-- Antwortform -->
 
-<form class="ps-5 fs-4" action="quiz.php" method="GET">
+<form class="ps-5 fs-4" action="index.php" method="GET" onsubmit="return evaluateCheckboxes()";>
 
 <div class="form-check">
-    <input type="radio" class="form-check-input" id="2-1" name="q2" value="0">Gorilla
+    <input type="radio" class="form-check-input" id="2-1" name="q2" value="1">Gorilla
     <label class="form-check-label" for="radio1"></label>
 </div>
 
