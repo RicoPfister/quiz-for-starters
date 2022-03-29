@@ -4,7 +4,9 @@
 
 <body>
 
-<?php include "php/collecting_data.php"?>
+<?php include "php/collecting_data.php";
+$_SESSION += $_GET;
+?>
 
 
 <!-- Ab hier beginnt Bootstrap/HTML/PHP -->
@@ -21,13 +23,13 @@
 
         <!-- Quiz-Hauptbereich mit den 3 Boxen -->
 
-        <div class="col-6">
+        <div class="col-8">
 
             <!-- Bootstrap Box 1 - Frage1-10 -->
 
             <div class="row">
             
-                <div class="col"><h2>Frage <?=$nextQuestionNumber?></h2></div>
+                <div class="col"><h2><?=$title?></h2></div>
 
             </div>
 
@@ -37,12 +39,11 @@
             
                 <div class="col border rounded border-secondary border-2 quizAnswerArea bg-quiz position-relative">
 
-                <div class="position-absolute top-50 start-100 translate-middle ms-4 mt-3"><img class="imgDeco2" src="images/deco5.png"></div>
-                <div class="position-absolute top-100 start-50 translate-middle"><img class="imgDeco1" src="images/deco1.png"></div>
+                <div class="position-absolute top-0 start-100 translate-middle"><img class="imgDeco1" src="images/deco1.png"></div>
 
-                <!-- Form Start -->   
+                <!-- Form Start -->        
 
-                <?php include "php/$questionBForm.php"?> 
+                <?php include "$nextQuestionPHP"?> 
 
             </div>
         </div>       
@@ -51,9 +52,10 @@
 
                 <div class="row mt-3">
                 
-                    <div class="col"><p class="m-0 fs-5">Frage <?=$nextQuestionNumber?>/10</p></div>
-                    <div class="col-auto"><button type="submit" name="b" value="b" class="btn bg-danger btn-lg mb-2">Vorherige Frage</button></div>
-                    <div class="col-auto"><button type="submit" class="btn bg-success btn-lg">Nächste Frage</button></div>
+                    <div class="col"><p class="m-0 fs-5"><?=$info?></p></div>
+                    <div class="col-auto"><button type="submit" name="b" value="b" class="btn btn-back btn-lg mb-2">Vorherige Frage</button></div>
+                    <div class="col-auto"><button type="submit" name="n" value="n" class="btn btn-new btn-lg mb-2">Quiz neu starten</button></div>
+                    <div class="col-auto"><button type="submit" class="btn btn-next btn-lg">Nächste Frage</button></div>
 
                 <form>
 
