@@ -38,6 +38,8 @@ $myLastElement = end($_SESSION);
         else if ($i === count(scandir('questions'))-2) {header("Location: /php/evaluation.php");}
     } 
 
+    print_r($_SESSION);
+
 
 
 
