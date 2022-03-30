@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>Tier das sich im Spiegel erkennen kann</title>
 <style>
     /* HIDE RADIO */
 .schnellstesTier { 
@@ -33,32 +33,32 @@
 -->
 
 
-<form action="/action_page.php">
-    <h2><b>2. Welches der folgenden Tiere kann am schnellsten rennen? </b></h2>
+<form class="ps-5 fs-4" action="index.php" method="GET">
+<h2><b>6. Welches dieser Tiere ist so intelligent, dass es sich in einem Spiegel wiedererkennen kann?  </b></h2>
 <label>
     <input type="radio" name="test" value="small" checked class="schnellstesTier">
-    <img src="/images/gepard.jpg" width="400">
+    <img src="/images/hund.jpg" width="400">
   </label>
   
   <label >
     <input type="radio" name="test" value="big" class="schnellstesTier">
-    <img src="/images/gazelle.jpg" width="400">
+    <img src="/images/elefant.jpg" width="400">
   </label>
 
 <label>
     <input type="radio" name="test" value="small" checked class="schnellstesTier">
-    <img src="/images/feldhase.jpg" width="400">
+    <img src="/images/affe.jpg" width="400">
 </label>
   
 <label>
     <input type="radio" name="test" value="big" class="schnellstesTier">
-    <img src="/images/strauss.jpg" width="400">
+    <img src="/images/schwein.jpg" width="400">
 </label>
 
 <input type="submit" value="Submit"> 
 
 </form>
 
-<!-- antwort: gepard-->
+<!-- antwort: elefant-->
 </body>
 </html>

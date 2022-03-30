@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>Bäume</title>
 <style>
     /* HIDE RADIO */
 .schnellstesTier { 
@@ -33,7 +33,7 @@
 -->
 
 
-<form class="ps-5 fs-4" action="index.php" method="GET"></form>
+<form class="ps-5 fs-4" action="index.php" method="GET">
     <h2><b>9. Welcher dieser Bäume ist ein Ahornbaum? </b></h2>
 <label>
     <input type="radio" name="test" value="small" checked class="schnellstesTier">
@@ -54,7 +54,9 @@
 
 </form>
 
-<!-- antwort: gepard-->
+<!-- antwort: 2.Bild-->
 </body>
 </html>
+
+
 
