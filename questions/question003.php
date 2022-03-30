@@ -30,5 +30,7 @@
 
     <input type="radio" class="form-check-input" id="3-4" name="q3" value="0">Strauss
     <label class="form-check-label" for="radio2"></label>
+
 <p id="validate-warning" style="color:red" class="warning"></p>
+
 </div>

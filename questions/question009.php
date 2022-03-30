@@ -9,6 +9,7 @@
 <form class="ps-5 fs-4" action="quiz.php" method="GET" onsubmit="return evaluateCheckboxes();">
 
 <div class="form-check">
+
     <input type="radio" class="form-check-input" id="9-1" name="q9" value="0">der Mammutbaum
     <label class="form-check-label" for="radio1"></label>
 </div>
@@ -22,6 +23,7 @@
 </div>
 <div class="form-check">
     <input type="radio" class="form-check-input" id="9-4" name="q9" value="0">die Altdeutsche Fichte
+
     <label class="form-check-label" for="radio2"></label>
     <p id="validate-warning" style="color:red" class="warning"></p>
 </div> 
