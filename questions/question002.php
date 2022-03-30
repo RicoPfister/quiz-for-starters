@@ -33,6 +33,6 @@
 <div class="form-check">
     <input type="radio" class="form-check-input" name="q2" id="2-4" value="0">Strauß
     <label class="form-check-label" for="2-4"></label>
-    <p id="validate-warning" class="warning"></p>
+    <p id="validate-warning" class="warning" style="color:red"></p>
 </div>
 
