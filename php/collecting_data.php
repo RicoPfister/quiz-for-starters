@@ -11,7 +11,9 @@ $myLastElement = end($_SESSION);
         session_destroy();}
 
     // back: go to last question
+
     else if(array_key_last($_SESSION) == "b") {
+        echo "ok";
         unset($_SESSION["b"]);
         array_pop($_SESSION);
         $_GET = [];
