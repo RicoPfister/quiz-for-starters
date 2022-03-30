@@ -3,11 +3,11 @@ body {
 }
 
 .quizArea {
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 .quizAnswerArea {
-        height: 600px;
+    height: 500px;
 }
 
 a {
@@ -21,11 +21,36 @@ a {
 
 .imgDeco1 {
     height: 200px;
+    width: 600px
 }
 
 .imgDeco2 {
-    height: 500px;
+    height:550px;
 }
+
+.imgDeco3 {
+    height:250px;
+    width: 700px;
+    margin-left: 550px;
+}
+
+.imgDeco4 {
+    height:100px;
+    width: 100px;
+    margin-bottom: 610px;
+}
+
+/* div overlapping test
+.decoRow {
+    position: relative;
+    z-index: 0;
+}
+
+.buttonROW {
+    position: relative;
+    z-index: 1;
+}
+*/
 
 /* Button adjustments */
 
