@@ -26,7 +26,10 @@ function evaluateCheckboxes(){
     hiddenField.value = achievedPoints;
 
 } 
-
+function setWarning(text) {
+    let warningElement = document.getElementById("validate-warning");
+    warningElement.innerText = text;
+}
 /*
 
 function validateQuestion(inputID, radioName) {
@@ -64,7 +67,6 @@ function validateQuestion(inputID, radioName) {
         }
     }
 
-    function setWarning(text) {
-        let warningElement = document.getElementById("validate-warning");
-        warningElement.innerText = text;
-    }}*/
+   
+    }} 
+    */

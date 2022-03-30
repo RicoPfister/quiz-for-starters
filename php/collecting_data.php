@@ -5,7 +5,7 @@ $_SESSION += $_GET;
 $myLastElement = end($_SESSION);
 
 if(!isset($_SESSION["q1"])) {
-    $nextQuestionPHP = "questions/question1.php";
+    $nextQuestionPHP = "questions/question001.php";
     $title = "Frage 1"; 
     $info = "1 von ".count(scandir('questions'))-2;
 }
