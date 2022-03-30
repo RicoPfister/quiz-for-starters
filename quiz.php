@@ -39,10 +39,10 @@ $_SESSION += $_GET;
             
                 <div class="col shadow-lg border rounded border-secondary border-2 quizAnswerArea bg-quiz position-relative">
 
-                <div class="position-absolute top-50 start-100 translate-middle z-index-0"><img class="imgDeco4" src="images/happybird.gif"></div>
-                <div class="position-absolute top-0 start-50 translate-middle-y z-index-1"><img class="imgDeco1" src="images/deco8-4.png"></div>
-                <div class="position-absolute top-50 start-100 translate-middle z-index-1"><img class="imgDeco2" src="images/deco8-5.png"></div>
-                <div class="position-absolute top-100 start-0 translate-middle z-index-1"><img class="imgDeco3" src="images/deco8-3.png"></div>
+                <div class="position-absolute top-50 start-100 translate-middle"><img class="imgDeco imgDeco4" src="images/happybird.gif"></div>
+                <div class="position-absolute top-0 start-50 translate-middle-y"><img class="imgDecoA imgDeco1" src="images/deco8-4.png"></div>
+                <div class="position-absolute top-50 start-100 translate-middle"><img class="imgDeco imgDeco2" src="images/deco8-5.png"></div>
+                <div class="position-absolute top-100 start-0 translate-middle"><img class="imgDecoA imgDeco3" src="images/deco8-3.png"></div>
           
 
                 <!-- Form Start -->        
@@ -54,7 +54,7 @@ $_SESSION += $_GET;
 
             <!-- Bootstrap Boxen 3-5 - Info/Button -->
 
-                <div class="row z-index-2 mt-3">
+                <div class="row 2 mt-3">
                 
                     <div class="col ms-5"><p class="m-0 fs-5"><?=$info?></p></div>
                     <div class="col-auto"><button type="submit" name="b" value="b" class="btn btn-back btn-lg mb-2">Vorherige Frage</button></div>

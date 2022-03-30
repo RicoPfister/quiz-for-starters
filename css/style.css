@@ -2,6 +2,11 @@ body {
     background-image: url("/images/background_light.jpg");
 }
 
+img {
+    height: 150px;
+    width: 150px;
+}
+
 .quizArea {
     margin-top: 7rem;
 }
@@ -40,6 +45,12 @@ a {
     margin-bottom: 610px;
 }
 
+@media screen and (max-width: 1700px) {
+    .imgDecoA {
+        display: none;
+    }
+  }
+
 /* div overlapping test
 .decoRow {
     position: relative;
@@ -77,4 +88,23 @@ a {
 .btn-next:hover {
     background: rgb(0,255,0);
 }
+
+.schnellstesTier { 
+
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* IMAGE STYLES */
+  .schnellstesTier + img {
+    cursor: pointer;
+  }
+  
+  /* CHECKED STYLES */
+  .schnellstesTier:checked + img {
+    outline: 2px solid #f00;
+  }
+
+  
 
