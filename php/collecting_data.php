@@ -35,8 +35,10 @@ $myLastElement = end($_SESSION);
             $info = "$i von ".(count(scandir('questions'))-2)." Fragen";
             break;
         }
-        else if ($i === count(scandir('questions'))-2) {header("Location: /php/evaluation.php");}
+        else if ($i === count(scandir('questions'))-2) {header("Location: /php/evaluation_data.php");}
     } 
+
+    print_r($_SESSION);
 
 
 
