@@ -27,6 +27,11 @@ function evaluateCheckboxes(){
 
 } 
 
+function setWarning(text) {
+    let warningElement = document.getElementById("validate-warning");
+    warningElement.innerText = text;
+}
+
 /*
 
 function validateQuestion(inputID, radioName) {
@@ -63,8 +68,7 @@ function validateQuestion(inputID, radioName) {
             return false;
         }
     }
+   
+    }} 
+    */
 
-    function setWarning(text) {
-        let warningElement = document.getElementById("validate-warning");
-        warningElement.innerText = text;
-    }}*/
