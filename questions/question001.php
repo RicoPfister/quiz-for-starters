@@ -4,7 +4,7 @@
 
 <!-- Antwortform -->
 
-<form class="ps-5 fs-4" action="quiz.php" method="GET">
+<form class="ps-5 fs-4" action="quiz.php" method="GET" onsubmit="return evaluateCheckboxes();">
 
 <div class="form-check">
     <input type="radio" class="form-check-input" id="1-1" name="q1" value="1">Gorilla

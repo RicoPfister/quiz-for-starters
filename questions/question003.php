@@ -1,6 +1,6 @@
 
 <!-- author: Thomas -->
-<h3 class="p-5">Welches der Folgenden Tiere kann am schnellsten rennen?</h2>
+<h3 class="p-5">Wie nennt man ein männliches Schaf?</h2>
 
 <!-- Antwortform -->
 
@@ -30,6 +30,5 @@
 
     <input type="radio" class="form-check-input" id="3-4" name="q3" value="0">Strauss
     <label class="form-check-label" for="radio2"></label>
-</div>
 <p id="validation-warning" style="color:red" class="warning"></p>
-
+</div>
