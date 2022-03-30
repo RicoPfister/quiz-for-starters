@@ -30,7 +30,7 @@
     <input type="radio" class="form-check-input" id="5-4" name="q5" value="0">Blut
     <label class="form-check-label" for="5-4"></label>
 </div>
-<p id="validation-warning" style="color:red" class="warning"></p>
+<p id="validate-warning" style="color:red" class="warning"></p>
 
 <!--antwort: fett -->
 
