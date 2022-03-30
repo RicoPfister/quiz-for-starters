@@ -56,10 +56,10 @@ $_SESSION += $_GET;
 
                 <div class="row z-index-2 mt-3">
                 
-                    <div class="col ms-5"><p class="m-0 fs-5"><?=$info?></p></div>
-                    <div class="col-auto"><button type="submit" name="b" value="b" class="btn btn-back btn-lg mb-2">Vorherige Frage</button></div>
-                    <div class="col-auto"><button type="submit" name="n" value="n" class="btn btn-new btn-lg mb-2">Quiz neu starten</button></div>
-                    <div class="col-auto"><button type="submit" class="btn btn-next btn-lg">Nächste Frage</button></div>
+                    <div class="col ms-5 z-index-2"><p class="m-0 fs-5"><?=$info?></p></div>
+                    <div class="col-auto z-index-2"><button type="submit" name="b" value="b" class="btn btn-back btn-lg mb-2">Vorherige Frage</button></div>
+                    <div class="col-auto z-index-2"><button type="submit" name="n" value="n" class="btn btn-new btn-lg mb-2">Quiz neu starten</button></div>
+                    <div class="col-auto z-index-2"><button type="submit" class="btn btn-next btn-lg">Nächste Frage</button></div>
 
                 <form>
 
