@@ -1,28 +1,27 @@
-<!-- Fragetext -->
+<!-- Erstellt durch: Rahel -->
 
-<h3 class="p-5">Wie nennt man ein männliches Schaf?</h2>
+<h3 class="p-5">Welcher dieser Affen zählt nicht zu den Menschenaffen?</h2>
 
 <!-- Antwortform -->
 
-<form class="ps-5 fs-4" action="quiz.php" method="GET" onsubmit="return evaluateCheckboxes();">
+<form class="ps-5 fs-4" action="quiz.php" method="GET">
 
 <div class="form-check">
-    <input type="radio" class="form-check-input" name="q1" id="1-1" value="0">Lamm
+    <input type="radio" class="form-check-input" id="1-1" name="q1" value="1">Gorilla
     <label class="form-check-label" for="radio1"></label>
 </div>
 
 <div class="form-check">
-    <input type="radio" class="form-check-input" name="q1" id="1-2" value="0">Hammel
-    <label class="form-check-label" for="radio2"></label>
+    <input type="radio" class="form-check-input" id="1-1" name="q1" value="2">Gibbon
+    <label class="form-check-label" for="1-1"></label>
 </div>
 
 <div class="form-check">
-    <input type="radio" class="form-check-input" name="q1" id="1-3"  value="1">Widder
-    <label class="form-check-label" for="radio2"></label>
+    <input type="radio" class="form-check-input" id="1-1" name="q1" value="3">Orang-Utan
+    <label class="form-check-label" for="1-1"></label>
 </div>
 
 <div class="form-check">
-    <input type="radio" class="form-check-input" name="q1" id="1-4" value="0">Mufflon
-    <label class="form-check-label" for="radio2"></label>
-    <p id="validate-warning" class="warning"></p>
+    <input type="radio" class="form-check-input" id="1-1" name="q1" value="4">Schimpanse
+    <label class="form-check-label" for="1-1"></label>
 </div>
