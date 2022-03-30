@@ -1,28 +1,37 @@
-<!-- Fragetext -->
 
-<h3 class="p-5">Wie nennt man ein männliches Schaf?</h2>
+<!-- author: Thomas -->
+<h3 class="p-5">Welches der Folgenden Tiere kann am schnellsten rennen?</h2>
 
 <!-- Antwortform -->
 
-<form class="ps-5 fs-4" action="quiz.php" method="GET" onsubmit="return evaluateCheckboxes();">
+<form class="ps-5 fs-4" action="question004.php" method="GET" onsubmit="return evaluateCheckboxes()">
 
 <div class="form-check">
-    <input type="radio" class="form-check-input" name="q1" id="1-1" value="0">Lamm
+    <input type="radio" class="form-check-input" id="3-1" name="q3" value="1">Gepard
+
     <label class="form-check-label" for="radio1"></label>
 </div>
 
 <div class="form-check">
-    <input type="radio" class="form-check-input" name="q1" id="1-2" value="0">Hammel
+
+    <input type="radio" class="form-check-input" id="3-2" name="q3" value="0">Gazelle
+
     <label class="form-check-label" for="radio2"></label>
 </div>
 
 <div class="form-check">
-    <input type="radio" class="form-check-input" name="q1" id="1-3"  value="1">Widder
+
+    <input type="radio" class="form-check-input" id="3-3" name="q3" value="0">Feldhase
+
     <label class="form-check-label" for="radio2"></label>
 </div>
 
 <div class="form-check">
-    <input type="radio" class="form-check-input" name="q1" id="1-4" value="0">Mufflon
+
+    <input type="radio" class="form-check-input" id="3-4" name="q3" value="0">Strauss
     <label class="form-check-label" for="radio2"></label>
-    <p id="validate-warning" class="warning"></p>
 </div>
+<input type="hidden" name="lastPageID" value="question-multiple-choice">
+<input type="hidden" id="achievedPoints" name="achievedPoints">
+<p id="validation-warning" style="color:red" class="warning"></p>
+

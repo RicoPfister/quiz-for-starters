@@ -7,15 +7,15 @@
 -Don't forget to add a class to your labels and in CSS use that class instead.
 -->
 
-<form class="ps-5 fs-4" action="quiz.php" method="GET">
-
-<h3><b>Welches der folgenden Tiere kann am schnellsten rennen? </b></h3>
-
+<!-- Antwortform -->
+<!-- richtige Antwort:Gibbon -->
 
 <div class="form-check">
-    <input type="radio" name="q999" value="1" checked class="schnellstesTier">
-    <img src="/images/gepard.jpg" width="400">
-    </div>
+
+    <input type="radio" class="form-check-input" id="2-1" name="q2" value="0">Gorilla
+    <label class="form-check-label" for="radio1"></label>
+</div>
+
 
 <div class="form-check">
     <input type="radio" name="q999" value="0" class="schnellstesTier">
@@ -28,9 +28,9 @@
     </div>
 
 <div class="form-check">
-    <input type="radio" name="q999" value="0" class="schnellstesTier">
-    <img src="/images/strauss.jpg" width="400">
-    </div>
 
-
+    <input type="radio" class="form-check-input" id="2-4" name="q2" value="0">Schimpanse
+    <label class="form-check-label" for="radio2"></label>
+    <p id="validate-warning" style="color:red" class="warning"></p>
+</div>
 

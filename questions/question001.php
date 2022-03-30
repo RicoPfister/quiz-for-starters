@@ -22,6 +22,7 @@
 </div>
 
 <div class="form-check">
-    <input type="radio" class="form-check-input" id="1-1" name="q1" value="4">Schimpanse
-    <label class="form-check-label" for="1-1"></label>
+    <input type="radio" class="form-check-input" name="q1" id="1-4" value="0">Mufflon
+    <label class="form-check-label" for="radio2"></label>
+    <p id="validate-warning" style="color:red" class="warning"></p>
 </div>
