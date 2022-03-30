@@ -24,5 +24,5 @@
 <div class="form-check">
     <input type="radio" class="form-check-input" name="q1" id="1-4" value="0">Mufflon
     <label class="form-check-label" for="radio2"></label>
-    <p id="validate-warning" class="warning"></p>
+    <p id="validate-warning" style="color:red" class="warning"></p>
 </div>
