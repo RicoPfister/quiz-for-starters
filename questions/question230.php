@@ -1,22 +1,27 @@
-<!-- Erstellt durch: Nina -->
+<!-- Erstellt durch: Rahel -->
 
-<!-- Frage 10 -->
-
-<h3 class="p-5">Wer oder was ist eine Mimose?</h2>
+<h3 class="p-5">Welcher dieser Affen zählt nicht zu den Menschenaffen?</h2>
 
 <!-- Antwortform -->
 
 <form class="ps-5 fs-4" action="quiz.php" method="GET">
 
 <div class="form-check">
-    <input type="radio" class="form-check-input" id="10-1" name="q10" value="1">Eine tropische Pflanze.
+    <input type="radio" class="form-check-input" id="230-1" name="q230" value="1">Gorilla
     <label class="form-check-label" for="radio1"></label>
 </div>
+
 <div class="form-check">
-    <input type="radio" class="form-check-input" id="10-2" name="q10" value="0">Ein biochemischer Vorgang
-    <label class="form-check-label" for="radio2"></label>
+    <input type="radio" class="form-check-input" id="230-1" name="q230" value="2">Gibbon
+    <label class="form-check-label" for="230-1"></label>
 </div>
+
 <div class="form-check">
-    <input type="radio" class="form-check-input" id="10-3" name="q10" value="0">Ein Südseefisch
-    <label class="form-check-label" for="radio2"></label>
+    <input type="radio" class="form-check-input" id="230-1" name="q230" value="3">Orang-Utan
+    <label class="form-check-label" for="230-1"></label>
+</div>
+
+<div class="form-check">
+    <input type="radio" class="form-check-input" id="230-1" name="q230" value="4">Schimpanse
+    <label class="form-check-label" for="230-1"></label>
 </div>
