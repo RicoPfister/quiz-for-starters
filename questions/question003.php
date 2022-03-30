@@ -7,22 +7,22 @@
 <form class="ps-5 fs-4" action="quiz.php" method="GET" onsubmit="return evaluateCheckboxes();">
 
 <div class="form-check">
-    <input type="radio" class="form-check-input" name="q1" id="1-1" value="0">Lamm
-    <label class="form-check-label" for="radio1"></label>
+    <input type="radio" class="form-check-input" name="q3" id="3-1" value="0">Lamm
+    <label class="form-check-label" for="3-1"></label>
 </div>
 
 <div class="form-check">
-    <input type="radio" class="form-check-input" name="q1" id="1-2" value="0">Hammel
-    <label class="form-check-label" for="radio2"></label>
+    <input type="radio" class="form-check-input" name="q3" id="3-2" value="0">Hammel
+    <label class="form-check-label" for="3-1"></label>
 </div>
 
 <div class="form-check">
-    <input type="radio" class="form-check-input" name="q1" id="1-3"  value="1">Widder
-    <label class="form-check-label" for="radio2"></label>
+    <input type="radio" class="form-check-input" name="q3" id="3-3"  value="1">Widder
+    <label class="form-check-label" for="3-1"></label>
 </div>
 
 <div class="form-check">
-    <input type="radio" class="form-check-input" name="q1" id="1-4" value="0">Mufflon
-    <label class="form-check-label" for="radio2"></label>
+    <input type="radio" class="form-check-input" name="q3" id="3-4" value="0">Mufflon
+    <label class="form-check-label" for="3-1"></label>
     <p id="validate-warning" class="warning"></p>
 </div>

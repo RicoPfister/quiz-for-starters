@@ -4,6 +4,12 @@
 
 <?php
 session_start();
+
+foreach($_SESSION as $q => $a){
+
+}
+
+
 print_r($_SESSION);
 $_SESSION = [];
 $_GET = [];
