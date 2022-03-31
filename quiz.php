@@ -12,9 +12,9 @@ echo "<div id='cheat2' style='visibility: hidden; margin-left: 40px; position: a
 print_r($_SESSION);
 echo "</pre></div>";
 
-$seconds = '5';
+$seconds = $_SESSION["s"];
 
-echo "<p id='seconds' style='visibility: hidden'>$seconds</p>";
+echo "<div id='seconds' value='6' style='visibility: hidden'>$seconds</div>";
 
 ?>
 

@@ -14,7 +14,7 @@ document.addEventListener('keydown', function (event) {
 // countdown
 
 let countdown = document.getElementById("timer");
-let sec = 15;
+let sec = document.getElementById("seconds").innerHTML;
 countdown.innerHTML = sec;
 
 let colorChange = 0;
