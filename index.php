@@ -53,8 +53,9 @@ body, html {
 </style>
 </head> 
 <body>
-    <div class="hero-image">  
-    <div class="hero-text">
+  <div class="container-fluid p-5 my-5 text-while text-center">
+    <!--<div class="hero-image">  
+    <div class="hero-text">-->
     <h1 style="font-size:80px">Quiz: Wunder der Natur</h1>
     <h1 class="display-3">Testen Sie Ihr Wissen über Orte in naher und weiter Ferne. Nehmen Sie an diesem Mul­ti­ple-Choice-Quiz teil und erkunden Sie dabei spielerisch einige der unglaublichsten Wunder der Natur.</h1>
     
