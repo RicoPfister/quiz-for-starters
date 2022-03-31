@@ -9,14 +9,26 @@ $answerText = [
 ];
 
 foreach($_SESSION as $question => $value){
+
+    echo($question);
+
+    if (!$question == "s" || !$question == "d") { // Zählt nur Zahlen, überspringt alle anderen Keys
+
     $points+=$value; //wir haben die Gesamt-Punktzahl hier in der Variable $points gespeichert
-    
-    if ($points <= 3){
-        $text = $answerText["answer1"];
+
     }
-    else if ($points <= 6){
-        $text = $answerText["answer2"];
-    }
-    else {$text = $answerText["answer3"];
-    }
+
+    echo $question;  
+
+        if ($points <= 3){
+            $text = $answerText["answer1"];
+        }
+
+        else if ($points <= 6){
+            $text = $answerText["answer2"];
+        }
+
+        else {$text = $answerText["answer3"];
+        }
+
 }
