@@ -1,6 +1,10 @@
-# quiz-for-starters
+Wir haben ein einfaches Quiz erstellt.
 
-## Wichtige Hinweise
+Wer hat was gemacht?
 
-* Bitte arbeitet alle auf eurem eigenen Branche, danke!
-* Viel Spass und Erfolg! :-)
+Rico hat den Code geschrieben
+Rahel/Nina/Thomas haben jeweils Seiten angepasst
+Rahel/Nina -> CSS 
+Thomas -> JS Validation
+Rico/Rahel/Thomas -> PHP Datensammlung
+
