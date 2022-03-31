@@ -64,6 +64,7 @@ Quizzen Sie am besten gleich nochmal.</p>
 
 <?php
 
+session_start();
 $_SESSION = [];
 $_GET = [];
 
