@@ -1,6 +1,7 @@
 <?php include "php/header.php"?>
 
         <style>
+
 body, html {
     height: 100%;
     margin: 0;
@@ -29,7 +30,7 @@ body, html {
   border: none;
   outline: 0;
   display: inline-block;
-  padding: 10px 25px;
+  padding: 25px 50px;
   color: black;
   background-color: #ddd;
   text-align: center;
@@ -37,8 +38,9 @@ body, html {
 }
 
 .hero-text button:hover {
-  background-color: #555;
+  background-color: green;
   color: white;
+ 
 }
 
 
@@ -47,12 +49,14 @@ body, html {
 <body>
     <div class="hero-image">  
     <div class="hero-text">
-    <h1 style="font-size:50px">Quiz: Wunder der Natur</h1>
-    <p class="service-paragraph">     
-    Sie Ihr Wissen über Orte in naher und weiter Ferne. Nehmen Sie an diesem Mul­ti­ple-Choice-Quiz teil und erkunden Sie dabei spielerisch einige der unglaublichsten Wunder der Natur.</p>
+    <h1 style="font-size:80px">Quiz: Wunder der Natur</h1>
+    <h1 class="display-3">Testen Sie Ihr Wissen über Orte in naher und weiter Ferne. Nehmen Sie an diesem Mul­ti­ple-Choice-Quiz teil und erkunden Sie dabei spielerisch einige der unglaublichsten Wunder der Natur.</h1>
     
-    <form action="quiz.php">
-      <input type="submit" value="Los geht's!">
+    
+    <form action="/quiz.php">
+    </form>
+    <button style="font-size: 30px" type="button" class="btn btn-outline btn-lg">Los geht's!</button>
+      
     </form>
 
   </div>
