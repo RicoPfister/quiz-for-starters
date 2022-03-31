@@ -1,6 +1,10 @@
+<!-- author: rico -->
+
 <?php
 session_start();
 $_SESSION += $_GET;
+
+$backDisabled=0;
 
 $myLastElement = end($_SESSION);
 
@@ -12,13 +16,17 @@ $myLastElement = end($_SESSION);
 
     // back: go to last question
 
-    else if(array_key_last($_SESSION) == "b") {
+    elseif (array_key_last($_SESSION) == "b") {
         echo "ok";
         unset($_SESSION["b"]);
         array_pop($_SESSION);
+        array_pop($_SESSION);
         $_GET = [];
-        header("Location: quiz.php");
+        $_SESSION["d"]="1";
+        header("Location: /quiz.php");      
     }
+    
+    if(isset($_SESSION["d"])) $backDisabled=1; 
 
     // next: go to next question
 
@@ -33,14 +41,12 @@ $myLastElement = end($_SESSION);
         
         if(!isset($_SESSION["q".$trim0])) {
             $nextQuestionPHP = "questions/question".substr($path_parts['filename'], 8).".php";
-            $title = "Frage " . $trim0;
+            $title = $trim0;
             $info = "$i von ".(count(scandir('questions'))-2)." Fragen";
             break;
         }
-        else if ($i === count(scandir('questions'))-2) {header("Location: /php/evaluation_data.php");}
+        else if ($i === count(scandir('questions'))-2) {header("Location: /php/evaluationsSeite.php");}
     } 
-
-    print_r($_SESSION);
 
 
 

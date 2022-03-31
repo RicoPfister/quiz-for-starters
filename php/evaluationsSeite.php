@@ -62,5 +62,12 @@ Quizzen Sie am besten gleich nochmal.</p>
 </div>
 </div>
 
+<?php
+
+$_SESSION = [];
+$_GET = [];
+
+?>
+
 </body>
 </html>
