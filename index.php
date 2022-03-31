@@ -1,4 +1,8 @@
-<?php include "php/header.php"?>
+<?php 
+
+/* Erstellt durch: Nina */
+
+include "php/header.php"?>
 
         <style>
 
@@ -39,10 +43,12 @@ body, html {
 
 .hero-text button:hover {
   background-color: green;
-  color: white;
- 
+  color: white; 
 }
 
+#select {
+  width: 200px;
+  }
 
 </style>
 </head> 
@@ -52,17 +58,24 @@ body, html {
     <h1 style="font-size:80px">Quiz: Wunder der Natur</h1>
     <h1 class="display-3">Testen Sie Ihr Wissen über Orte in naher und weiter Ferne. Nehmen Sie an diesem Mul­ti­ple-Choice-Quiz teil und erkunden Sie dabei spielerisch einige der unglaublichsten Wunder der Natur.</h1>
     
-    
-    <form action="/quiz.php">
-    </form>
-    <button style="font-size: 30px" type="button" class="btn btn-outline btn-lg">Los geht's!</button>
+    <div>
+    <form action="/quiz.php" method="GET">
+
+    <select class="form-select" id="select" name="s">
+      <option selected>Schwierigkeitsgrad</option>
+      <option value="20">Einfach (20 Sekunden)</option>
+      <option value="15">Normal (15 Sekunden)</option>
+      <option value="7">Schwierig (7 Sekunden)</option>
+    </select>
+
+    <button style="font-size: 30px" type="submit" class="btn btn-outline btn-lg">Los geht's!</button>
       
-    </form>
+    </form>   
+</div>
 
   </div>
 </div>
-
-<--! Erstellt durch: Nina -->
+</div>
 
 </body>
 </html>

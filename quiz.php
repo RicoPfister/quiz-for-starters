@@ -4,11 +4,17 @@
 
 <body>
 
-<?php include "php/collecting_data.php";
+<?php 
+
+include "php/collecting_data.php";
 
 echo "<div id='cheat2' style='visibility: hidden; margin-left: 40px; position: absolute'><pre>";
 print_r($_SESSION);
 echo "</pre></div>";
+
+$seconds = '5';
+
+echo "<p id='seconds' style='visibility: hidden'>$seconds</p>";
 
 ?>
 
@@ -58,8 +64,6 @@ echo "</pre></div>";
             <!-- Bootstrap Boxen 3-5 - Info/Button -->
 
                 <div class="row 2 mt-3">
-
-
                 
                     <div class="col ms-5"><p class="m-0 fs-5"><?=$info?></p></div>
                     <div class="col-auto"><button type="submit" onclick="goBackQuestion()" id="back" name="b" value="b" class="btn btn-back btn-lg mb-2" <?php if ($backDisabled == '1') echo 'disabled'; ?>>Vorherige Frage</button></div>
