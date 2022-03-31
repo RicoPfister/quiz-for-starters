@@ -2,7 +2,7 @@
 
 <!-- Frage 9 -->
 
-<h3 class="p-5">Die älteste Baumart und vermutlich das älteste lebende Fossil in der Pflanzenwelt ist ... </h3>
+<h3 class="p-5">Die älteste Baumart und vermutlich<br> das älteste lebende Fossil in der Pflanzenwelt ist ... </h3>
 
 <!-- Antwortform -->
 

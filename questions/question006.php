@@ -2,7 +2,7 @@
 
 <!-- Frage 6 -->
 
-<h3 class="p-5">Welches dieser Tiere ist so intelligent, dass es sich in einem Spiegel wiedererkennen kann? </h3>
+<h3 class="p-5">Welches dieser Tiere ist so intelligent,<br> dass es sich in einem Spiegel wiedererkennen kann? </h3>
 
 <!-- Antwortform -->
 
