@@ -8,6 +8,7 @@
 
 <div class="form-check">
     <input type="radio" class="form-check-input" id="1-1" name="q1" value="0">Gorilla
+
     <label class="form-check-label" for="1-1"></label>
 </div>
 
@@ -19,6 +20,7 @@
 <div class="form-check">
     <input type="radio" class="form-check-input" id="1-3" name="q1" value="0">Orang-Utan
     <label class="form-check-label" for="1-3"></label>
+
 </div>
 
 <div class="form-check">
