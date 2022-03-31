@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<?php include "header.php"?>
+<?php include "evaluation_data.php"?>
+
+
+
+
 <style>
 body, html {
   height: 100%;
@@ -54,7 +54,7 @@ body, html {
 <div class="hero-image">
   <div class="hero-text" class="font-weight-bold">
     <h1 >RESULTAT</h1>
-    <p class="h2">Sie haben <?=$points?> Punkten erzielt.</p>
+    <p class="h2">Sie haben <strong class="text-warning"><?=$points?> Punkt(e)</strong> erzielt.</p>
 <p class="h2" p class="lh-lg">Das können Sie besser!<br>
 Auf diesem Wissensgebiet haben Sie noch einige Wissenslücken,<br> bestimmt konnten Sie jetzt einige davon schließen.<br>
 Quizzen Sie am besten gleich nochmal.</p>
@@ -75,5 +75,4 @@ $_GET = [];
 
 ?>
 
-</body>
-</html>
+<?php include "footer.php"?>
