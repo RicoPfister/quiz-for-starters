@@ -2,6 +2,8 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 <style>
 body, html {
   height: 100%;
@@ -11,7 +13,7 @@ body, html {
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/hintergrund-bild.jpg");
-  height: 100%;
+  height: 90%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,6 +28,7 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+ 
 }
 
 .hero-text button {
@@ -45,14 +48,15 @@ body, html {
 }
 </style>
 </head>
+
 <body>
 
 <div class="hero-image">
-  <div class="hero-text" >
-    <h1>RESULTAT</h1>
+  <div class="hero-text" class="font-weight-bold">
+    <h1 >RESULTAT</h1>
     <p class="h2">Sie haben <?=$points?> Punkten erzielt.</p>
-<p id="antwort" class="h2">Das können Sie besser!
-Auf diesem Wissensgebiet haben Sie noch einige Wissenslücken, bestimmt konnten Sie jetzt einige davon schließen. 
+<p class="h2" p class="lh-lg">Das können Sie besser!<br>
+Auf diesem Wissensgebiet haben Sie noch einige Wissenslücken,<br> bestimmt konnten Sie jetzt einige davon schließen.<br>
 Quizzen Sie am besten gleich nochmal.</p>
 
 <form action="/index.php">
