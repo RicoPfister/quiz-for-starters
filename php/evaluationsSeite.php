@@ -54,10 +54,12 @@ body, html {
 <div class="hero-image">
   <div class="hero-text" class="font-weight-bold">
     <h1 >RESULTAT</h1>
+
+
+
     <p class="h2">Sie haben <strong class="text-warning"><?=$points?> Punkt(e)</strong> erzielt.</p>
-<p class="h2" p class="lh-lg">Das können Sie besser!<br>
-Auf diesem Wissensgebiet haben Sie noch einige Wissenslücken,<br> bestimmt konnten Sie jetzt einige davon schließen.<br>
-Quizzen Sie am besten gleich nochmal.</p>
+<h2 id="answerText" class="lh-lg"> <?=$text?> </h2>
+
 
 <form action="/index.php">
       <input type="submit" value="WIEDERHOLEN" class="btn btn-danger btn-lg">
