@@ -12,7 +12,9 @@ $myLastElement = end($_SESSION);
     if(array_key_exists("n",$_SESSION)) {
         $_SESSION = [];
         $_GET = [];
-        session_destroy();}
+        session_destroy();
+        header("Location: /index.php");
+    }
 
     // back: go to last question
 
@@ -47,27 +49,6 @@ $myLastElement = end($_SESSION);
         }
         else if ($i === count(scandir('questions'))-2) {header("Location: /php/evaluationsSeite.php");}
     } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ?>
 
