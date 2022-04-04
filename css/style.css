@@ -125,22 +125,23 @@ a {
     background: rgb(0,255,0);
 }
 
+    /* HIDE RADIO */
 .schnellstesTier { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
 
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  /* IMAGE STYLES */
-  .schnellstesTier + img {
-    cursor: pointer;
-  }
-  
-  /* CHECKED STYLES */
-  .schnellstesTier:checked + img {
-    outline: 2px solid #f00;
-  }
+/* IMAGE STYLES */
+.schnellstesTier + img {
+  cursor: pointer;
+}
+
+/* CHECKED STYLES */
+.schnellstesTier:checked + img {
+  outline: 2px solid #f00;
+}
 
   
 

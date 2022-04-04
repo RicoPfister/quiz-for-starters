@@ -64,7 +64,7 @@ body, html {
 
     <select class="form-select" id="select" name="s" form="difficulty">
       <option value="" selected>Schwierigkeitsgrad</option>
-      <option value="20">Einfach (20 Sekunden)</option>
+      <option value="30">Einfach (30 Sekunden)</option>
       <option value="15">Normal (15 Sekunden)</option>
       <option value="7">Schwierig (7 Sekunden)</option>
     </select>

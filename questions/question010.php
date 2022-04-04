@@ -2,7 +2,7 @@
 
 <!-- Frage 10 -->
 
-<h3 class="p-5">Wer oder was ist eine Mimose?</h2>
+<h3 class="p-5 mt-5">Wer oder was ist eine Mimose?</h2>
 
 <!-- Antwortform -->
 
