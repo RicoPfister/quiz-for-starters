@@ -49,19 +49,19 @@ body, html {
 #select {
   width: 200px;
  
-}
-  
+}  
 
 </style>
 </head> 
 <body>
-  <!--<div class="container-fluid p-5 my-5 text-while text-center">-->
+  <!--<div class="container-fluid p-5 my-5 text-while text-center">*/-->
     <div class="hero-image">  
     <div class="hero-text">
+   
     <h1 style="font-size:50px display-3 text-center">Quiz: Wunder der Natur</h1>
     <h1 style="font-size:50px display-3 text-center">Testen Sie Ihr Wissen über Orte in naher und weiter Ferne. Nehmen Sie an diesem Mul­ti­ple-Choice-Quiz teil und erkunden Sie dabei spielerisch einige der unglaublichsten Wunder der Natur.</h1>
     
-    <div>
+    <div class="d-flex justify-content-center mt-5">
 
     <form class="ps-5 fs-4" action="quiz.php" method="GET" id="difficulty" onsubmit="return evaluateDIfficulty()">
 
@@ -70,11 +70,22 @@ body, html {
       <option value="30">Einfach (30 Sekunden)</option>
       <option value="15">Normal (15 Sekunden)</option>
       <option value="7">Schwierig (7 Sekunden)</option>
-    </select>
+    </select>  
+    <p id="warning" class="text-center" style="background: white; color: red"></p>
 
-    <p id="warning" style="background: white; color: red"></p>
+    <button style="font-size: 20px" type="submit" class="btn btn-outline btn-lg mt-5">Los geht's!</button>
 
-    <button style="font-size: 20px" type="submit" class="btn btn-outline btn-lg">Los geht's!</button>
+</div>
+
+<div class="row justify-content-center">
+
+
+
+
+
+</div>
+
+
 </div>  
     </form>   
 </div>

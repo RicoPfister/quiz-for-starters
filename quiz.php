@@ -1,3 +1,5 @@
+<!-- Author: Rico -->
+
 <?php include "php/header.php"?>
 
 </head>
@@ -8,7 +10,8 @@
 
 include "php/collecting_data.php";
 
-echo "<div id='cheat2' style='visibility: hidden; margin-left: 40px; position: absolute'><pre>";
+echo "<div id='cheat2' style='visibility: hidden; margin-top: 2rem; margin-left: 2rem; position: absolute' style='z-index: 5'><pre>";
+echo "ok";
 print_r($_SESSION);
 echo "</pre></div>";
 
@@ -65,7 +68,7 @@ echo "<div id='seconds' value='6' style='visibility: hidden'>$seconds</div>";
 
                 <div class="row 2 mt-3">
                 
-                    <div class="col ms-5"><p class="m-0 fs-5"><?=$info?></p></div>
+                    <div class="col ms-5 mb-3"><p class="m-0 fs-5"><?=$info?></p></div>
                     <div class="col-auto"><button type="button" onclick="goBackQuestion()" id="back" name="b" value="b" class="btn btn-back btn-lg mb-2" <?php if ($backDisabled == '1') echo 'disabled'; ?>>Vorherige Frage</button></div>
                     <div class="col-auto"><button type="button" onclick="restartQuiz()" id="new" name="n" value="n" class="btn btn-new btn-lg mb-2">Quiz neu starten</button></div>
                     <div class="col-auto"><button type="submit" class="btn btn-next btn-lg">Nächste Frage</button></div>
