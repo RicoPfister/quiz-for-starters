@@ -1,6 +1,8 @@
 <?php
 session_start();
 $points = 0;
+$text = "-";
+$difficulty = "-";
 
 $answerText = [
     "answer1" => "Du hast einige Wissenslücken. Probier es doch gleich nochmals.", // von 0-3 Punkte
@@ -10,15 +12,27 @@ $answerText = [
 
 foreach($_SESSION as $question => $value){
 
-    echo($question);
+    // Text Schwierigkeitsgrad auswählen
 
-    if (!$question == "s" || !$question == "d") { // Zählt nur Zahlen, überspringt alle anderen Keys
+    if ($value === "7") {
+        $difficulty = "<strong>schwierig</strong>";
+    }
+
+    if ($value === "15") {
+        $difficulty = "<strong>normal</strong>";
+    }
+
+    if ($value === "20") {
+        $difficulty = "<strong>einfach</strong>";
+    }
+
+    // Gesamtpunkte Textzuordnung
+
+    if ($question != "s") { // Zählt Zahlen zusammen, überspringt alle anderen Keys
 
     $points+=$value; //wir haben die Gesamt-Punktzahl hier in der Variable $points gespeichert
 
     }
-
-    echo $question;  
 
         if ($points <= 3){
             $text = $answerText["answer1"];
@@ -30,5 +44,4 @@ foreach($_SESSION as $question => $value){
 
         else {$text = $answerText["answer3"];
         }
-
 }
