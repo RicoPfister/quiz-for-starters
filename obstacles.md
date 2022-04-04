@@ -7,6 +7,12 @@
 * Team-Mitglieder sollten sich auf Namenskonventionen einigen (-> wie benenne ich Ordner? Wie benenne ich Identifikatoren?)
  bsp: ein
 
+## Quiz
+
+* Bootstrap weiter lernen.
+* Die Verwendung von GitHub ist für mich noch weiter schwierig.
+* Sammlung von Daten und Evaluations selber ausprobieren und gut lernen.
+
  Wir wollten eigentlich Fragen mit radio buttons machen, bei denen wir Bilder anstatt radio buttons eingefügt hätten. Wir fanden den Code dazu, und es funktionierte in einem normalen Dokument. Die Bilder waren clickable, aber es war nachher zu schwierig, die Bilder in unser Bootstrap-Gerüst einzufügen, das Rico bereits erstellt hatte. 
  Deshalb entschieden wir uns, die Fragen wieder in Radio Buttons umzuwandeln. 
 
