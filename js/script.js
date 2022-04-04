@@ -1,4 +1,4 @@
-// author: rico
+// Author: Rico
 
 // cheat 1: show $_SESSION
 
@@ -7,7 +7,7 @@ let checkCheat=0;
 document.addEventListener('keydown', function (event) {
     if (event.ctrlKey && event.altKey && event.key == 'y' && checkCheat===0) {
         document.getElementById("cheat2").style.visibility = "visible"
-        checkCheat=1;    
+        checkCheat=1;
     } else if (event.ctrlKey && event.altKey && event.key == 'y' && checkCheat===1) {document.getElementById("cheat2").style.visibility = "hidden"; checkCheat=0;}
 });
 

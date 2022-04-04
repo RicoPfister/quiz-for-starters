@@ -1,12 +1,6 @@
 <?php include "header.php"?>
 <?php include "evaluation_data.php"?>
 
-<?php
-echo "<div id='cheat2' style='visibility: hidden; margin-left: 40px; position: absolute'><pre>";
-print_r($_SESSION);
-echo "</pre></div>";
-?>
-
 <style>
 body, html {
   height: 100%;
@@ -67,14 +61,18 @@ body, html {
     </form>
 
 </div>
+
+
+<?php
+echo "<div id='cheat2' style='color: white; visibility: hidden; margin-top: 2rem; margin-left: 2rem; position: absolute'><pre>";
+print_r($_SESSION);
+echo "</pre></div>";
+?>
 </div>
 
 <?php
-
-
 $_SESSION = [];
 $_GET = [];
-
 
 ?>
 

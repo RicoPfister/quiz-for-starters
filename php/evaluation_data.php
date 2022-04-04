@@ -1,3 +1,5 @@
+<!-- Author: Thomas/Rico -->
+
 <?php
 session_start();
 $points = 0;
@@ -28,7 +30,7 @@ foreach($_SESSION as $question => $value){
 
     // Gesamtpunkte Textzuordnung
 
-    if ($question != "s") { // Zählt Zahlen zusammen, überspringt alle anderen Keys
+    if ($question != "s" && $question != "x") { // Zählt Zahlen zusammen, überspringt alle anderen Keys
 
     $points+=$value; //wir haben die Gesamt-Punktzahl hier in der Variable $points gespeichert
 

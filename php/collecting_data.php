@@ -1,4 +1,4 @@
-<!-- author: rico -->
+<!-- Author: Rico -->
 
 <?php
 session_start();
@@ -23,11 +23,13 @@ $myLastElement = end($_SESSION);
         unset($_SESSION["b"]);
         array_pop($_SESSION);
         $_GET = [];
-        $_SESSION["d"]="1";
+        $_SESSION["x"]="1";
         header("Location: /quiz.php");      
     }
     
-    if(isset($_SESSION["d"])) $backDisabled=1; 
+    // deaktiviert Zurück-Button
+
+    if(isset($_SESSION["x"])) $backDisabled=1; 
 
     // next: go to next question
 
