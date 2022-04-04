@@ -4,6 +4,8 @@ Mithilfe von PHP sammelten wir die Daten und werteten sie mit einer PHP-Funktion
 
 Figma-Link: https://www.figma.com/file/QeffihdJkJiaLWdLC7eVJW/Natur-Quiz-Frage-1?node-id=0%3A1
 
+Datensammlung auf der Quiz- und der Auswertungsseite einsehen: CTRL-ALT-Y.
+
 Wer hat was gemacht?
 
 Rico hat den Code geschrieben
