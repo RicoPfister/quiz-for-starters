@@ -15,15 +15,15 @@ foreach($_SESSION as $question => $value){
     // Text Schwierigkeitsgrad auswählen
 
     if ($value === "7") {
-        $difficulty = "<strong>schwierig</strong>";
+        $difficulty = "<strong>\"schwierig\"</strong>";
     }
 
     if ($value === "15") {
-        $difficulty = "<strong>normal</strong>";
+        $difficulty = "<strong>\"normal\"</strong>";
     }
 
-    if ($value === "20") {
-        $difficulty = "<strong>einfach</strong>";
+    if ($value === "30") {
+        $difficulty = "<strong>\"einfach\"</strong>";
     }
 
     // Gesamtpunkte Textzuordnung

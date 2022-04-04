@@ -9,41 +9,41 @@
 
 <!-- Fragetext -->
 
-<h3 class="p-5 mt-5">Welches der folgenden Tiere kann am schnellsten rennen?</h2>
+<h3 class="p-5 mt-3">Welches der folgenden Tiere kann am schnellsten rennen?</h2>
 
 <!-- Antwortform -->
 
-    <form class="ps-5 fs-4" action="quiz.php" method="GET" onsubmit="return evaluateCheckboxes();">
+<form class="ps-5 fs-4" action="quiz.php" method="GET" onsubmit="return evaluateCheckboxes();">
 
-    <div class="d-flex justify-content-start z-index-3">
+    <div class="z-index-3">
 
-    <label>
-        <input type="radio" id="2-1" name="q2" value="1" class="schnellstesTier">
-        <img src="/images/gepard.jpg" width="200" class=" me-3">
-    </label>
-    
-    <label >
-        <input type="radio" id="2-2" name="q2" value="0" class="schnellstesTier">
-        <img src="/images/gazelle.jpg" width="200" class="me-3">
-    </label>
+        <label>
+            <input type="radio" id="2-1" name="q2" value="1" class="schnellstesTier">
+            <img src="/images/gepard.jpg" width="200" class="me-3 mb-3">
+        </label>
 
-    <label>
-        <input type="radio" id="2-3" name="q2" value="0" class="schnellstesTier">
-        <img src="/images/feldhase.jpg" width="200" class="me-3">
-    </label>
-    
-    <label>
-        <input type="radio" id="2-4" name="q2" value="0" class="schnellstesTier">
-        <img src="/images/strauss.jpg" width="200" class=">
-    </label>
+        <label >
+            <input type="radio" id="2-2" name="q2" value="0" class="schnellstesTier">
+            <img src="/images/gazelle.jpg" width="200" class="me-3 mb-3">
+        </label>
+
+        <label>
+            <input type="radio" id="2-3" name="q2" value="0" class="schnellstesTier">
+            <img src="/images/feldhase.jpg" width="200" class="me-3 mb-3">
+        </label>
+
+        <label>
+            <input type="radio" id="2-4" name="q2" value="0" class="schnellstesTier">
+        <img src="/images/strauss.jpg" width="200" class="mb-3">
+        </label>
 
     </div>
 
-<div class="row">
+    <div class="row">
 
-<p id="validate-warning" style="color:red" class="warning"></p>
+        <p id="validate-warning" style="color:red" class="warning"></p>
 
-</div>
+    </div>
 
 
 

@@ -13,10 +13,6 @@ img {
     margin-top: 7rem;
 }
 
-.quizAnswerArea {
-    height: 500px;
-}
-
 a {
     color: black;
     text-decoration: none; /* no underline */
@@ -63,11 +59,16 @@ a {
     left: 85%;
     height: 6rem;
     width: 6.5rem;
-    opacity: 0.5;
 }
 
+@media screen and (min-width: 1701px) {
+    .quizAnswerArea {
+        height: 500px;
+    }
+  }
+
 @media screen and (max-width: 1700px) {
-    .imgDecoA {
+    .imgDecoA, .imgDeco {
         display: none;
     }   
 
@@ -84,6 +85,8 @@ a {
         .quizArea {
             margin-top: 2rem;
     }
+
+
     }
 
 
@@ -126,22 +129,22 @@ a {
 }
 
     /* HIDE RADIO */
-.schnellstesTier { 
-  position: absolute;
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-/* IMAGE STYLES */
-.schnellstesTier + img {
-  cursor: pointer;
-}
-
-/* CHECKED STYLES */
-.schnellstesTier:checked + img {
-  outline: 2px solid #f00;
-}
-
+    .schnellstesTier { 
+        position: absolute;
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+      
+      /* IMAGE STYLES */
+      .schnellstesTier + img {
+        cursor: pointer;
+      }
+      
+      /* CHECKED STYLES */
+      .schnellstesTier:checked + img {
+        outline: 2px solid #f00;
+      }
+      
   
 

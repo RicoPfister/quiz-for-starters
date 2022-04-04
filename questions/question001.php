@@ -1,6 +1,6 @@
 <!-- Erstellt durch: Rahel -->
 
-<h3 class="p-5 mt-5">Welcher dieser Affen zählt nicht zu den Menschenaffen?</h2>
+<h3 class="p-3 mt-3">Welcher dieser Affen zählt nicht zu den Menschenaffen?</h2>
 
 <!-- Antwortform -->
 

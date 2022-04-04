@@ -2,7 +2,7 @@
 
 <!-- Frage 4 -->
 
-<h3 class="p-5 mt-5">Aus welcher Pflanze wird Vanille gewonnen?</h3>
+<h3 class="p-5 mt-3">Aus welcher Pflanze wird Vanille gewonnen?</h3>
 
 <!-- Antwortform -->
 

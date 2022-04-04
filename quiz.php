@@ -38,7 +38,7 @@ echo "<div id='seconds' value='6' style='visibility: hidden'>$seconds</div>";
 
             <div class="row">
             
-                <div class="col"><h2>Nature Quiz - Frage <span id="questionNumber" value="ok" ><?=$title?></span></h2></div>
+                <div class="col"><h2>Nature Quiz <br>Frage <span id="questionNumber" value="ok" ><?=$title?></span></h2></div>
 
             </div>
 
@@ -46,7 +46,7 @@ echo "<div id='seconds' value='6' style='visibility: hidden'>$seconds</div>";
 
             <div class="row mt-2 d-flex index">
             
-                <div class="col shadow-lg border rounded border-secondary border-2 quizAnswerArea bg-quiz position-relative">
+                <div class="col shadow-lg border rounded border-secondary border-2 min-vh-50 quizAnswerArea bg-quiz position-relative">
 
                 <div class="position-absolute top-50 start-100 translate-middle"><img class="imgDeco imgDeco4" src="images/happybird.gif"></div>
                 <div class="position-absolute top-0 start-50 translate-middle-y"><img class="imgDecoA imgDeco1" src="images/deco8-4.png"></div>
@@ -66,7 +66,7 @@ echo "<div id='seconds' value='6' style='visibility: hidden'>$seconds</div>";
                 <div class="row 2 mt-3">
                 
                     <div class="col ms-5"><p class="m-0 fs-5"><?=$info?></p></div>
-                    <div class="col-auto"><button type="submit" onclick="goBackQuestion()" id="back" name="b" value="b" class="btn btn-back btn-lg mb-2" <?php if ($backDisabled == '1') echo 'disabled'; ?>>Vorherige Frage</button></div>
+                    <div class="col-auto"><button type="button" onclick="goBackQuestion()" id="back" name="b" value="b" class="btn btn-back btn-lg mb-2" <?php if ($backDisabled == '1') echo 'disabled'; ?>>Vorherige Frage</button></div>
                     <div class="col-auto"><button type="button" onclick="restartQuiz()" id="new" name="n" value="n" class="btn btn-new btn-lg mb-2">Quiz neu starten</button></div>
                     <div class="col-auto"><button type="submit" class="btn btn-next btn-lg">Nächste Frage</button></div>
 
