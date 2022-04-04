@@ -73,7 +73,7 @@ body, html {
     </select>  
     <p id="warning" class="text-center" style="background: white; color: red"></p>
 
-    <button style="font-size: 20px" type="submit" class="btn btn-outline btn-lg mt-5">Los geht's!</button>
+    <button style="font-size: 20px" type="submit" class="btn btn-outline btn-lg mt-2">Los geht's!</button>
 
 </div>
 
