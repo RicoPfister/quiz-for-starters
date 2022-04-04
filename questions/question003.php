@@ -1,6 +1,6 @@
 
 <!-- author: Thomas -->
-<h3 class="p-5 mt-5">Wie nennt man ein männliches Schaf?</h2>
+<h3 class="p-5 mt-3">Wie nennt man ein männliches Schaf?</h2>
 
 <!-- Antwortform -->
 

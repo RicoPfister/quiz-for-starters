@@ -1,6 +1,6 @@
 <!--antwortseite rahel -->
 
-<h2 class="p-5 mt-5">Was speichern Kamele in ihren Höckern?</h2>
+<h2 class="p-5 mt-3">Was speichern Kamele in ihren Höckern?</h2>
 
 <!-- Antwortform -->
 

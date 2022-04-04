@@ -1,6 +1,7 @@
 // author: Thomas 
 
 function evaluateCheckboxes(){
+
     // Hole die Liste aller ausgewählten Checkboxen (checked).
     let radioButton = document.querySelectorAll('input[type=radio]:checked'); //CSS3 Selektor!!!!!
 

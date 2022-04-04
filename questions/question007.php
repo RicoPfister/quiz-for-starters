@@ -2,7 +2,7 @@
 
 <!-- Frage 7 -->
 
-<h3 class="p-5 mt-5">Welches dieser Nahrungsmittel ist im botanischen Sinn eine Nuss?</h2>
+<h3 class="p-5 mt-3">Welches dieser Nahrungsmittel ist im botanischen Sinn eine Nuss?</h2>
 
 <!-- Antwortform -->
 
