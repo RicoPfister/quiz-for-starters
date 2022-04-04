@@ -74,3 +74,11 @@ function validateQuestion(inputID, radioName) {
     }} 
     */
 
+    function evaluateDIfficulty(){
+
+        if(document.getElementById("select").value == ""){
+            document.getElementById("warning").innerText = "Wähle einen Schwierigkeitsgrad"
+            return false; 
+        }
+    }
+
