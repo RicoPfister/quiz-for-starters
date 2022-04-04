@@ -22,7 +22,6 @@ $myLastElement = end($_SESSION);
         echo "ok";
         unset($_SESSION["b"]);
         array_pop($_SESSION);
-        array_pop($_SESSION);
         $_GET = [];
         $_SESSION["d"]="1";
         header("Location: /quiz.php");      
